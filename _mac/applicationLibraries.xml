@@ -1,0 +1,217 @@
+<application>
+  <component name="libraryTable">
+    <library name="Node.js v0.12.0 Core Modules" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="Node.js Core Modules" />
+        <option name="frameworkVersion" value="0.12.0" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_tls_common.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_stream_writable.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_stream_transform.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_stream_readable.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_stream_passthrough.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_stream_duplex.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_linklist.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_http_server.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_http_outgoing.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_http_incoming.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_http_common.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_http_client.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_http_agent.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_debugger.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/fs.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/http.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/events.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/freelist.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/dns.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/domain.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/crypto.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/dgram.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/console.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/constants.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/child_process.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/cluster.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/assert.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/buffer.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_tls_legacy.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/_tls_wrap.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/smalloc.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/repl.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/string_decoder.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/stream.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/timers.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/sys.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/tty.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/tls.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/module.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/https.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/os.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/net.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/punycode.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/path.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/readline.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/querystring.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/url.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/util.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/vm.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.0-src/core-modules-sources/lib/zlib.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Node.js v0.12.1 Core Modules" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="Node.js Core Modules" />
+        <option name="frameworkVersion" value="0.12.1" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_stream_transform.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_stream_readable.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_stream_passthrough.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_stream_duplex.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_tls_wrap.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_tls_legacy.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_tls_common.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_stream_writable.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_http_common.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_http_client.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_http_agent.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_debugger.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_linklist.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_http_server.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_http_outgoing.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/_http_incoming.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/events.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/freelist.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/dns.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/domain.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/https.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/module.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/fs.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/http.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/child_process.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/cluster.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/assert.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/buffer.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/crypto.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/dgram.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/console.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/constants.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/string_decoder.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/stream.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/timers.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/sys.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/tty.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/tls.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/util.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/url.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/os.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/net.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/punycode.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/path.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/readline.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/querystring.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/smalloc.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/repl.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/vm.js" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/extLibs/nodejs-v0.12.1-src/core-modules-sources/lib/zlib.js" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Python 2.7.10 (/usr/bin/python) interpreter library">
+      <CLASSES>
+        <root url="file:///Library/Python/2.7/site-packages" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC" />
+        <root url="file:///Library/Python/2.7/site-packages" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/python_stubs/348993582" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file:///Library/Python/2.7/site-packages" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC" />
+        <root url="file:///Library/Python/2.7/site-packages" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/python_stubs/348993582" />
+      </SOURCES>
+    </library>
+    <library name="Python 2.7.10 (/usr/local/bin/python) interpreter library">
+      <CLASSES>
+        <root url="file://$USER_HOME$/python27/lib/python2.7" />
+        <root url="file://$USER_HOME$/python27/lib/python2.7/lib-dynload" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages" />
+        <root url="file://$USER_HOME$/python27/lib/python2.7/site-packages" />
+        <root url="file:///Library/Python/2.7/site-packages/pip-7.1.0-py2.7.egg" />
+        <root url="file:///Library/Python/2.7/site-packages" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/python_stubs/-151465760" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/python27/lib/python2.7" />
+        <root url="file://$USER_HOME$/python27/lib/python2.7/lib-dynload" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages" />
+        <root url="file://$USER_HOME$/python27/lib/python2.7/site-packages" />
+        <root url="file:///Library/Python/2.7/site-packages/pip-7.1.0-py2.7.egg" />
+        <root url="file:///Library/Python/2.7/site-packages" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python" />
+        <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea14/python_stubs/-151465760" />
+      </SOURCES>
+    </library>
+    <library name="sass-stdlib">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="scala-sdk-2.11.7" type="Scala">
+      <properties>
+        <compiler-classpath>
+          <root url="file:///usr/local/opt/scala/idea/lib/scala-compiler.jar" />
+          <root url="file:///usr/local/opt/scala/idea/lib/scala-library.jar" />
+          <root url="file:///usr/local/opt/scala/idea/lib/scala-reflect.jar" />
+        </compiler-classpath>
+      </properties>
+      <CLASSES>
+        <root url="jar:///usr/local/opt/scala/idea/lib/scala-actors-2.11.0.jar!/" />
+        <root url="jar:///usr/local/opt/scala/idea/lib/scala-actors-migration_2.11-1.1.0.jar!/" />
+        <root url="jar:///usr/local/opt/scala/idea/lib/scala-library.jar!/" />
+        <root url="jar:///usr/local/opt/scala/idea/lib/scala-parser-combinators_2.11-1.0.4.jar!/" />
+        <root url="jar:///usr/local/opt/scala/idea/lib/scala-reflect.jar!/" />
+        <root url="jar:///usr/local/opt/scala/idea/lib/scala-swing_2.11-1.0.2.jar!/" />
+        <root url="jar:///usr/local/opt/scala/idea/lib/scala-xml_2.11-1.0.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="http://www.scala-lang.org/api/2.11.7/" />
+      </JAVADOC>
+      <SOURCES />
+    </library>
+  </component>
+</application>

@@ -1,0 +1,11 @@
+<templateSet group="markdown">
+  <template name="msl" value="[$atorCapital$]($folder$/$ator$)&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="folder" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ator" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="atorCapital" expression="capitalize(ator)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

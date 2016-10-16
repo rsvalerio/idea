@@ -1,0 +1,115 @@
+<templateSet group="ng-ext">
+  <template name="ngexcluir" value="'use strict';&#10;&#10;angular.module('$module$')&#10;.controller('$routeCapital$Exclui', function $routeCapital$Exclui (&#10;    $scope,&#10;    $stateParams,&#10;    Restangular,&#10;    msg&#10;) {&#10;&#10;      Restangular.one('$route$', $stateParams.id).get()&#10;          .then(function ($route$) {&#10;            $scope.$route$ = $route$;&#10;          });&#10;&#10;      $scope.excluir = function () {&#10;&#10;        $scope.$route$.remove()&#10;            .then(msg.crud.sucessoAoExcluir, msg.crud.erroAoExcluir);&#10;&#10;      };&#10;&#10;});&#10;" description="CRUD controller excluir" toReformat="true" toShortenFQNames="true">
+    <variable name="module" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="routeCapital" expression="capitalize(route)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ngnovo" value="'use strict';&#10;&#10;angular.module('$modulo$')&#10;    .controller('$routeCapital$Novo', function $routeCapital$Novo(&#10;        $scope,&#10;        Restangular,&#10;        msg&#10;        ) {&#10;&#10;      $scope.gravar = function ($route$) {&#10;&#10;        msg.limpar();&#10;&#10;        Restangular.all('$route$')&#10;            .post($route$)&#10;            .then(msg.crud.sucessoAoGravar, msg.crud.erroAoGravar);&#10;&#10;      };&#10;&#10;&#10;    });" description="CRUD controller excluir" toReformat="true" toShortenFQNames="true">
+    <variable name="modulo" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="routeCapital" expression="capitalize(route)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ngnovof" value="'use strict';&#10;&#10;angular.module('$modulo$')&#10;    .controller('$routeCapital$', function $routeCapital$(&#10;        $scope,&#10;        $state,&#10;        Restangular,&#10;        PassosModel,&#10;        msg) {&#10;&#10;      //INICIALIZACAO DE VARIAVEIS E FUNCOES DO ESCOPO&#10;      $scope.inicializar = function () {&#10;        if (!PassosModel.declaracao || !PassosModel.declaracao.id) {&#10;          $state.go('declaracao');&#10;          return;&#10;        }&#10;        PassosModel.config.passo = '$route$';&#10;        if (!PassosModel.declaracao.$route$) {&#10;          PassosModel.declaracao.$route$ = {&#10;            declaracao: {id: PassosModel.declaracao.id}&#10;          };&#10;        }&#10;        $scope.modelo = {&#10;          $route$: PassosModel.declaracao.$route$,&#10;          config:        PassosModel.config&#10;        };&#10;      };&#10;      $scope.inicializar();&#10;&#10;      var sucessoGravar = function ($route$) {&#10;        msg.sucesso('Dados pessoais gravados com sucesso!');&#10;        PassosModel.declaracao.$route$ = $route$;&#10;      };&#10;&#10;      $scope.gravar = function () {&#10;        msg.limpar();&#10;        if ($scope.modelo.$route$.id) {&#10;&#10;          Restangular.all('$route$')&#10;              .customPUT($scope.modelo.$route$, '/' + $scope.modelo.$route$.id)&#10;              .then(sucessoGravar, msg.erro400);&#10;&#10;        } else {&#10;          Restangular.all('$route$')&#10;              .post($scope.modelo.$route$).then(sucessoGravar, msg.erro400);&#10;        }&#10;      };&#10;&#10;      $scope.datePicker = {&#10;        abrir:          function ($event, nomePropriedade) {&#10;          $event.preventDefault();&#10;          $event.stopPropagation();&#10;          $scope.datePicker[nomePropriedade].aberto = true;&#10;        },&#10;        dataNascimento: {&#10;          aberto: false&#10;        }&#10;      };&#10;&#10;    });" description="CRUD controller excluir Full" toReformat="true" toShortenFQNames="true">
+    <variable name="modulo" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="routeCapital" expression="capitalize(route)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ngedita" value="'use strict';&#10;&#10;angular.module('$module$')&#10;    .controller('$routeCapital$Atualiza', function $routeCapital$Atualiza(&#10;        $scope,&#10;        $stateParams,&#10;        Restangular,&#10;        msg&#10;        ) {&#10;&#10;      Restangular.one('$route$', $stateParams.id).get()&#10;          .then(function ($route$) {&#10;            $scope.modelo = {&#10;              $route$: $route$&#10;            };&#10;          });&#10;&#10;      $scope.gravar = function ($route$) {&#10;&#10;        msg.limpar();&#10;&#10;        $route$.save()&#10;            .then(msg.crud.sucessoAoGravar, msg.crud.erroAoGravar);&#10;&#10;      };&#10;&#10;    });" description="CRUD controller edita" toReformat="true" toShortenFQNames="true">
+    <variable name="module" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="routeCapital" expression="capitalize(route)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ng-checkbox-tag" value="&lt;div class=&quot;form-group has-feedback&quot; ng-class=&quot;{'has-error': form.$nome$.$invalid, 'has-success': !form.$nome$.$invalid}&quot;&gt;&#10;  &lt;label for=&quot;$nome$&quot; class=&quot;col-sm-3 control-label&quot;&gt;$nomeCapital$:&lt;/label&gt;&#10;  &lt;div class=&quot;col-sm-9&quot;&gt;&#10;    &lt;div class=&quot;checkbox&quot;&gt;&#10;      &lt;label&gt;&#10;        &lt;input type=&quot;checkbox&quot; ng-model=&quot;modelo.$route$.$nome$&quot;&gt;&#10;        $label$&#10;      &lt;/label&gt;&#10;    &lt;/div&gt;&#10;    &lt;span ng-class=&quot;{'fa fa-times': form.$nome$.$invalid, 'fa fa-check': !form.$nome$.$invalid}&quot; class=&quot;form-control-feedback&quot;&gt;&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="route" expression="fileNameWithoutExtension()" defaultValue="recadastramento" alwaysStopAt="true" />
+    <variable name="nome" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="nomeCapital" expression="capitalize(nome)" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ng-select-tag" value="&lt;div class=&quot;form-group has-feedback&quot; ng-class=&quot;{'has-error': form.$nome$.$invalid, 'has-success': !form.$nome$.$invalid}&quot;&gt;&#10;  &lt;label for=&quot;$nome$&quot; class=&quot;col-sm-3 control-label&quot;&gt;$nomeCapital$&lt;/label&gt;&#10;  &lt;div class=&quot;col-sm-9&quot;&gt;&#10;    &lt;ui-select required name=&quot;$nome$&quot; ng-model=&quot;modelo.$route$.$nome$&quot; theme=&quot;bootstrap&quot;&gt;&#10;      &lt;ui-select-match placeholder=&quot;Selecione ou procure&quot;&gt;{{$select.selected.nome}}&lt;/ui-select-match&gt;&#10;      &lt;ui-select-choices repeat=&quot;$nome$ in modelo.combo.combos.$nome$ | filter: $select.search&quot;&gt;&#10;        &lt;span ng-bind-html=&quot;$nome$.nome | highlight: $select.search&quot;&gt;&lt;/span&gt;&#10;      &lt;/ui-select-choices&gt;&#10;    &lt;/ui-select&gt;&#10;    &lt;span ng-class=&quot;{'fa fa-times': form.$nome$.$invalid, 'fa fa-check': !form.$nome$.$invalid}&quot; class=&quot;form-control-feedback&quot;&gt;&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="route" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="nome" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="nomeCapital" expression="capitalize(nome)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ng-text-tag" value="&lt;div class=&quot;form-group has-feedback&quot; ng-class=&quot;{'has-error': form.$nome$.$invalid, 'has-success': !form.$nome$.$invalid}&quot;&gt;&#10;  &lt;label for=&quot;$nome$&quot; class=&quot;col-sm-3 control-label&quot;&gt;$nomeCapital$:&lt;/label&gt;&#10;&#10;  &lt;div class=&quot;col-sm-9&quot;&gt;&#10;    &lt;input type=&quot;text&quot; ng-model=&quot;modelo.$route$.$nome$&quot; name=&quot;$nome$&quot; id=&quot;$nome$&quot; class=&quot;form-control&quot; required=&quot;required&quot;&gt;&#10;    &lt;span ng-class=&quot;{'fa fa-times':form.$nome$.$invalid, 'fa fa-check': !form.$nome$.$invalid}&quot; class=&quot;form-control-feedback&quot;&gt;&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="route" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="nome" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="nomeCapital" expression="capitalize(nome)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ng-date-tag" value="&lt;div class=&quot;form-group has-feedback&quot; ng-class=&quot;{'has-error': form.$nome$.$invalid, 'has-success': !form.$nome$.$invalid}&quot;&gt;&#10;  &lt;label class=&quot;col-sm-3 control-label&quot; for=&quot;$nome$&quot;&gt;$nomeCapital$: &lt;/label&gt;&#10;&#10;  &lt;div class=&quot;col-sm-9&quot;&gt;&#10;    &lt;p class=&quot;input-group&quot;&gt;&#10;      &#10;      &lt;input required &#10;        type=&quot;text&quot; &#10;        class=&quot;form-control&quot; &#10;        name=&quot;$nome$&quot; &#10;        ng-model=&quot;modelo.$route$.$nome$&quot; &#10;        datepicker-popup&#10;        datepicker-options=&quot;datePicker.$nome$&quot; &#10;        is-open=&quot;datePicker.$nome$.aberto&quot; /&gt;&#10;&#10;    &lt;span class=&quot;input-group-btn&quot;&gt;&#10;      &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; ng-click=&quot;datePicker.abrir($event,'$nome$')&quot;&gt;&lt;i class=&quot;fa fa-calendar&quot;&gt;&lt;/i&gt;&lt;/button&gt;&#10;    &lt;/span&gt;&#10;    &lt;/p&gt;&#10;    &lt;span ng-class=&quot;{'fa fa-times':form.$nome$.$invalid, 'fa fa-check': !form.$nome$.$invalid}&quot; class=&quot;form-control-feedback&quot;&gt;&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="route" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="nome" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="nomeCapital" expression="underscoresToSpaces(capitalizeAndUnderscore(nome))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

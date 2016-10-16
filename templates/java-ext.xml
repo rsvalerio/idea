@@ -1,0 +1,22 @@
+<templateSet group="java-ext">
+  <template name="sbr" value="package br.com.governa.portalservidor.recadastramento.repository.declaracao;&#10;&#10;import br.com.governa.portalservidor.recadastramento.domain.declaracao.$routeCapital$;&#10;import org.springframework.data.jpa.repository.Query;&#10;import org.springframework.data.repository.PagingAndSortingRepository;&#10;import org.springframework.data.rest.core.annotation.RepositoryRestResource;&#10;&#10;import java.util.List;&#10;&#10;@RepositoryRestResource(collectionResourceRel = &quot;$route$&quot;, path = &quot;$route$&quot;)&#10;public interface $routeCapital$Repository extends PagingAndSortingRepository&lt;$routeCapital$, Long&gt; {&#10;&#10;&#10;    @Query(&quot;select new $routeCapital$($route$.id, $route$.nome) from $routeCapital$ $route$&quot;)&#10;    List&lt;$routeCapital$&gt; combo ();&#10;}&#10;" description="spring boot repository" toReformat="true" toShortenFQNames="true">
+    <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="routeCapital" expression="capitalize(route)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="sbcombo" value="&#10;    @RequestMapping(&#10;        value = &quot;/$route$&quot;,&#10;        method = RequestMethod.GET,&#10;        produces = MediaType.APPLICATION_JSON_VALUE&#10;    )&#10;    public ResponseEntity&lt;List&lt;$routeCapital$&gt;&gt; listar$routeCapital$() {&#10;        List&lt;$routeCapital$&gt; $route$ = $route$Repository.combo();&#10;        return new ResponseEntity&lt;List&lt;$routeCapital$&gt;&gt;(&#10;                $route$,&#10;                HttpStatus.OK);&#10;    }" description="sbcombo" toReformat="true" toShortenFQNames="true">
+    <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="routeCapital" expression="capitalize(route)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

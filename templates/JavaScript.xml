@@ -1,0 +1,23 @@
+<templateSet group="JavaScript">
+  <template name="us" value="'use strict';&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="vfunc" value="var $var$ = function($PARAM$) {&#10;  $END$&#10;};" description="Inserts function expression pointing to var" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="req" value="var $varCamelized$ = require('$var$');" description="Require a dependency" toReformat="true" toShortenFQNames="false">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="varCamelized" expression="underscoresToCamelCase(capitalizeAndUnderscore(var))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+    </context>
+  </template>
+</templateSet>

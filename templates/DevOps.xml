@@ -1,0 +1,74 @@
+<templateSet group="DevOps">
+  <template name="depp" value="- src: http://pr.pmenos.com/roles/$dependencia$/$versao$/$dependencia$-$versao$.tar.gz&#10;  name: $dependencia$" description="dependencia ansible galaxy" toReformat="true" toShortenFQNames="true">
+    <variable name="dependencia" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="versao" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Bash" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="SCALA_XML" value="false" />
+      <option name="SCALA_COMMENT" value="false" />
+      <option name="SCALA_STRING" value="false" />
+      <option name="SCALA_CODE" value="false" />
+      <option name="SBT" value="false" />
+      <option name="SSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="inr" value="- include: $arquivo$" toReformat="false" toShortenFQNames="true">
+    <variable name="arquivo" expression="fileName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="jkr" value="&lt;?xml version='1.0' encoding='UTF-8'?&gt;&#10;&lt;project&gt;&#10;  &lt;actions/&gt;&#10;  &lt;description&gt;$_nome_role_$&lt;/description&gt;&#10;  &lt;displayName&gt;$_nome_role_$&lt;/displayName&gt;&#10;  &lt;logRotator class=&quot;hudson.tasks.LogRotator&quot;&gt;&#10;    &lt;daysToKeep&gt;-1&lt;/daysToKeep&gt;&#10;    &lt;numToKeep&gt;3&lt;/numToKeep&gt;&#10;    &lt;artifactDaysToKeep&gt;-1&lt;/artifactDaysToKeep&gt;&#10;    &lt;artifactNumToKeep&gt;-1&lt;/artifactNumToKeep&gt;&#10;  &lt;/logRotator&gt;&#10;  &lt;keepDependencies&gt;false&lt;/keepDependencies&gt;&#10;  &lt;properties&gt;&#10;    &lt;hudson.plugins.disk__usage.DiskUsageProperty plugin=&quot;disk-usage&quot;/&gt;&#10;    &lt;org.jenkinsci.plugins.gitlablogo.GitlabLogoProperty plugin=&quot;gitlab-logo&quot;&gt;&#10;      &lt;repositoryName&gt;&lt;/repositoryName&gt;&#10;    &lt;/org.jenkinsci.plugins.gitlablogo.GitlabLogoProperty&gt;&#10;  &lt;/properties&gt;&#10;  &lt;scm class=&quot;hudson.plugins.git.GitSCM&quot; plugin=&quot;git&quot;&gt;&#10;    &lt;configVersion&gt;2&lt;/configVersion&gt;&#10;    &lt;userRemoteConfigs&gt;&#10;      &lt;hudson.plugins.git.UserRemoteConfig&gt;&#10;        &lt;url&gt;http://gitlab.pmenos.com/tecnologia/$_nome_role_$.git&lt;/url&gt;&#10;        &lt;credentialsId&gt;43d88873-4634-4a7c-97da-353f6cbb179e&lt;/credentialsId&gt;&#10;      &lt;/hudson.plugins.git.UserRemoteConfig&gt;&#10;    &lt;/userRemoteConfigs&gt;&#10;    &lt;branches&gt;&#10;      &lt;hudson.plugins.git.BranchSpec&gt;&#10;        &lt;name&gt;**&lt;/name&gt;&#10;      &lt;/hudson.plugins.git.BranchSpec&gt;&#10;    &lt;/branches&gt;&#10;    &lt;doGenerateSubmoduleConfigurations&gt;false&lt;/doGenerateSubmoduleConfigurations&gt;&#10;    &lt;submoduleCfg class=&quot;list&quot;/&gt;&#10;    &lt;extensions/&gt;&#10;  &lt;/scm&gt;&#10;  &lt;canRoam&gt;true&lt;/canRoam&gt;&#10;  &lt;disabled&gt;false&lt;/disabled&gt;&#10;  &lt;blockBuildWhenDownstreamBuilding&gt;false&lt;/blockBuildWhenDownstreamBuilding&gt;&#10;  &lt;blockBuildWhenUpstreamBuilding&gt;false&lt;/blockBuildWhenUpstreamBuilding&gt;&#10;  &lt;triggers&gt;&#10;    &lt;com.dabsquared.gitlabjenkins.GitLabPushTrigger plugin=&quot;gitlab-plugin&quot;&gt;&#10;      &lt;spec&gt;&lt;/spec&gt;&#10;      &lt;triggerOnPush&gt;true&lt;/triggerOnPush&gt;&#10;      &lt;triggerOnMergeRequest&gt;true&lt;/triggerOnMergeRequest&gt;&#10;      &lt;triggerOpenMergeRequestOnPush&gt;never&lt;/triggerOpenMergeRequestOnPush&gt;&#10;      &lt;ciSkip&gt;true&lt;/ciSkip&gt;&#10;      &lt;setBuildDescription&gt;true&lt;/setBuildDescription&gt;&#10;      &lt;addNoteOnMergeRequest&gt;true&lt;/addNoteOnMergeRequest&gt;&#10;      &lt;addVoteOnMergeRequest&gt;true&lt;/addVoteOnMergeRequest&gt;&#10;      &lt;allowAllBranches&gt;false&lt;/allowAllBranches&gt;&#10;      &lt;includeBranchesSpec&gt;&lt;/includeBranchesSpec&gt;&#10;      &lt;excludeBranchesSpec&gt;&lt;/excludeBranchesSpec&gt;&#10;      &lt;acceptMergeRequestOnSuccess&gt;true&lt;/acceptMergeRequestOnSuccess&gt;&#10;    &lt;/com.dabsquared.gitlabjenkins.GitLabPushTrigger&gt;&#10;  &lt;/triggers&gt;&#10;  &lt;concurrentBuild&gt;false&lt;/concurrentBuild&gt;&#10;  &lt;customWorkspace&gt;jobs/$_nome_role_$/$_nome_role_$&lt;/customWorkspace&gt;&#10;  &lt;builders&gt;&#10;    &lt;org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder plugin=&quot;ansible&quot;&gt;&#10;      &lt;limit&gt;&lt;/limit&gt;&#10;      &lt;tags&gt;&lt;/tags&gt;&#10;      &lt;skippedTags&gt;&lt;/skippedTags&gt;&#10;      &lt;startAtTask&gt;&lt;/startAtTask&gt;&#10;      &lt;credentialsId&gt;&lt;/credentialsId&gt;&#10;      &lt;playbook&gt;build.yml&lt;/playbook&gt;&#10;      &lt;inventory class=&quot;org.jenkinsci.plugins.ansible.InventoryPath&quot;&gt;&#10;        &lt;path&gt;tests/hosts&lt;/path&gt;&#10;      &lt;/inventory&gt;&#10;      &lt;sudo&gt;false&lt;/sudo&gt;&#10;      &lt;sudoUser&gt;&lt;/sudoUser&gt;&#10;      &lt;forks&gt;5&lt;/forks&gt;&#10;      &lt;unbufferedOutput&gt;true&lt;/unbufferedOutput&gt;&#10;      &lt;colorizedOutput&gt;true&lt;/colorizedOutput&gt;&#10;      &lt;hostKeyChecking&gt;false&lt;/hostKeyChecking&gt;&#10;      &lt;additionalParameters&gt;&lt;/additionalParameters&gt;&#10;    &lt;/org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder&gt;&#10;  &lt;/builders&gt;&#10;  &lt;publishers/&gt;&#10;  &lt;buildWrappers&gt;&#10;    &lt;hudson.plugins.ansicolor.AnsiColorBuildWrapper plugin=&quot;ansicolor&quot;&gt;&#10;      &lt;colorMapName&gt;xterm&lt;/colorMapName&gt;&#10;    &lt;/hudson.plugins.ansicolor.AnsiColorBuildWrapper&gt;&#10;  &lt;/buildWrappers&gt;&#10;&lt;/project&gt;" description="jenkins-role" toReformat="true" toShortenFQNames="true">
+    <variable name="_nome_role_" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="vavm" value="  config.vm.define &quot;$nome_servico$&quot;, autostart: false do |$nome_servico$|&#10;    $nome_servico$.vm.provision &quot;ansible&quot; do |ansible|&#10;      ansible.playbook = &quot;$nome_servico$.yml&quot;&#10;      ansible.sudo = true&#10;    end&#10;  end" description="vagrant vm" toReformat="true" toShortenFQNames="true">
+    <variable name="nome_servico" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="vaf" value="# -*- mode: ruby -*-&#10;# vi: set ft=ruby :&#10;&#10;Vagrant.configure(2) do |config|&#10;&#10;  config.vm.box = &quot;centos764MinimalGuestAdd&quot;&#10;&#10;  config.vm.provision &quot;ansible&quot; do |ansible|&#10;    ansible.playbook = &quot;playbook.yml&quot;&#10;    #ansible.sudo = true&#10;    #ansible.host_key_checking = false&#10;    #ansible.verbose =  'vvvv'&#10;  end&#10;&#10;  #config.vm.synced_folder &quot;sharedFolder/&quot;, &quot;/home/vagrant&quot;&#10;&#10;end&#10;" description="vagrant file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

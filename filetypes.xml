@@ -1,0 +1,50 @@
+<application>
+  <component name="FileTypeManager" version="14">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.bundle;.git;.hg;.svn;.tox;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping pattern="Jenkinsfile" type="Groovy" />
+      <mapping pattern="follow-links" type="JavaScript" />
+      <mapping pattern="configuracao-routeui" type="JavaScript" />
+      <mapping pattern="java-repository" type="Jinja2" />
+      <mapping pattern="README" type="Markdown" />
+      <mapping ext="iso" type="Native" />
+      <mapping pattern="Vagrantifle" type="PLAIN_TEXT" />
+      <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="ITMAgents1" type="PLAIN_TEXT" />
+      <mapping pattern="ifcfg-" type="PLAIN_TEXT" />
+      <mapping pattern="host" type="PLAIN_TEXT" />
+      <mapping pattern="ssh_config" type="PLAIN_TEXT" />
+      <mapping pattern="defaults" type="PLAIN_TEXT" />
+      <mapping pattern="ifcfg-ens160" type="PLAIN_TEXT" />
+      <mapping pattern="devices" type="PLAIN_TEXT" />
+      <mapping pattern="inventory" type="PLAIN_TEXT" />
+      <mapping pattern="environment" type="PLAIN_TEXT" />
+      <mapping pattern="locale" type="PLAIN_TEXT" />
+      <mapping pattern="hostname" type="PLAIN_TEXT" />
+      <mapping pattern="900011" type="PLAIN_TEXT" />
+      <mapping pattern=".gitconfig" type="PLAIN_TEXT" />
+      <mapping pattern="squid" type="PLAIN_TEXT" />
+      <mapping pattern="network" type="PLAIN_TEXT" />
+      <mapping pattern="homologacaoController" type="PLAIN_TEXT" />
+      <mapping pattern="hosts" type="PLAIN_TEXT" />
+      <mapping pattern="hab" type="PLAIN_TEXT" />
+      <mapping pattern="Procfile" type="PLAIN_TEXT" />
+      <mapping pattern="ifcfg" type="PLAIN_TEXT" />
+      <mapping pattern="Readme" type="PLAIN_TEXT" />
+      <mapping pattern="vault" type="PLAIN_TEXT" />
+      <mapping pattern="cliente" type="PLAIN_TEXT" />
+      <mapping ext="kibana4" type="PLAIN_TEXT" />
+      <mapping ext="repo" type="PLAIN_TEXT" />
+      <mapping ext="service" type="PLAIN_TEXT" />
+      <mapping ext="cfg" type="PLAIN_TEXT" />
+      <mapping ext="exemplo" type="PLAIN_TEXT" />
+      <mapping ext="j2" type="PLAIN_TEXT" />
+      <mapping ext="upstart" type="PLAIN_TEXT" />
+      <mapping ext="ps1" type="PLAIN_TEXT" />
+      <mapping pattern="base" type="YAML" />
+      <mapping pattern="Vagrantfile" type="YAML" />
+      <removed_mapping ext="yml" type="YAML" />
+      <mapping ext="yml" type="YAML_EX" />
+    </extensionMap>
+  </component>
+</application>
