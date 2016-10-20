@@ -13,7 +13,7 @@
       <mapping pattern="ITMAgents1" type="PLAIN_TEXT" />
       <mapping pattern="ifcfg-" type="PLAIN_TEXT" />
       <mapping pattern="host" type="PLAIN_TEXT" />
-      <mapping pattern="ssh_config" type="PLAIN_TEXT" />
+      <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern="defaults" type="PLAIN_TEXT" />
       <mapping pattern="ifcfg-ens160" type="PLAIN_TEXT" />
       <mapping pattern="devices" type="PLAIN_TEXT" />
@@ -28,7 +28,7 @@
       <mapping pattern="homologacaoController" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
       <mapping pattern="hab" type="PLAIN_TEXT" />
-      <mapping pattern="Procfile" type="PLAIN_TEXT" />
+      <mapping pattern="ssh_config" type="PLAIN_TEXT" />
       <mapping pattern="ifcfg" type="PLAIN_TEXT" />
       <mapping pattern="Readme" type="PLAIN_TEXT" />
       <mapping pattern="vault" type="PLAIN_TEXT" />
