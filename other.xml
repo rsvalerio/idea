@@ -105,10 +105,6 @@
       <option name="ENABLED" value="true" />
     </filter>
   </component>
-  <component name="GlobalAntConfiguration">
-    <filtersTableLayout />
-    <propertiesTableLayout />
-  </component>
   <component name="PropertiesSeparatorManager">
     <file url="resourceBundle:file:///Users/rsvalerio/Developer/projetos/PortalServidor/teste/spring-validation/spring-rest-server/src/main/resources/i18n/messages" separator="\u002e" />
   </component>
